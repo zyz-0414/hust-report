@@ -1,0 +1,4 @@
+interface:
+  display_name: "HUST Report"
+  short_description: "HUST lab report formatting guide."
+  default_prompt: "Use $hust-report to draft or revise a HUST-style lab report according to the course template."

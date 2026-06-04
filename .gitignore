@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated report artifacts and private course materials
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.csv
+*.tsv
+*.zip
+*.7z
+*.rar
+
+# Local caches
+__pycache__/
+.pytest_cache/
+node_modules/
