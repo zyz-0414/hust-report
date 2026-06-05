@@ -52,6 +52,7 @@ If Chinese, digits, letters, punctuation, or symbols have unwanted spaces around
 - Second-level heading: 黑体, 四号, 14 pt, bold, left aligned. Letters and Arabic numerals: Times New Roman, 14 pt, bold.
 - Third- and fourth-level headings: 黑体, 小四, 12 pt, bold. Letters and Arabic numerals: Times New Roman, 12 pt, bold.
 - Body text: 宋体, 小四, 12 pt, 1.5 line spacing, standard character spacing.
+- When editing the report title, subtitles, or headings, preserve the template's original Word styles, direct formatting, and numbering links. Do not clear heading/subtitle formatting, convert headings to body text, or replace styled headings with plain paragraphs.
 - Insert page breaks between chapters/first-level headings when the template expects each chapter to begin on a new page. Do not mechanically force every second-level heading to start a new page unless the template says so.
 - Use `keep with next` for headings. If a heading would appear alone at the bottom of a page, adjust pagination so the heading and first following paragraph stay together.
 
@@ -97,6 +98,7 @@ Before delivery:
 - Confirm the final originality statement/declaration was not modified unless the user explicitly requested it.
 - Confirm the TOC is a real Word automatic TOC field, not a manually typed plain-text directory.
 - Confirm the TOC exists and page numbers match the final layout.
+- Confirm the report title, subtitles, and body headings keep the required template styles and that no original heading/subtitle formatting was cleared.
 - Confirm heading numbers and heading text have matching sizes.
 - Confirm heading numbers have a normal following space.
 - Confirm body paragraphs use 宋体 小四 12 pt with 1.5 line spacing.
