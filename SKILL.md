@@ -41,7 +41,9 @@ If Chinese, digits, letters, punctuation, or symbols have unwanted spaces around
 - Chapter-level TOC entries: 宋体, 小四, 12 pt, bold.
 - Other TOC entries: 宋体, 小四, 12 pt, not bold.
 - Letters and Arabic numerals in the TOC: Times New Roman, 小四, 12 pt.
-- Preserve a real Word TOC when possible. If the TOC field cannot be safely updated after final formatting, make sure cached TOC page numbers match Word's final page layout.
+- The directory must be a real Word automatic TOC generated from Word TOC fields. Do not create a plain-text/manual directory made only of typed headings, dot leaders, and page numbers.
+- Preserve an existing real Word TOC. If the template has no real Word TOC, create one with Word TOC fields rather than manually typing directory entries.
+- If the TOC field cannot be safely updated after final formatting, make sure the document still contains the real Word TOC field and that cached TOC page numbers match Word's final page layout.
 - Updating a TOC may collapse run-level formatting. Recommended sequence: update TOC/page numbers, reapply final OOXML formatting, then only inspect or render.
 
 ## Body Heading Format
@@ -93,6 +95,7 @@ Before delivery:
 
 - Confirm the cover and front matter were not changed unless requested.
 - Confirm the final originality statement/declaration was not modified unless the user explicitly requested it.
+- Confirm the TOC is a real Word automatic TOC field, not a manually typed plain-text directory.
 - Confirm the TOC exists and page numbers match the final layout.
 - Confirm heading numbers and heading text have matching sizes.
 - Confirm heading numbers have a normal following space.
